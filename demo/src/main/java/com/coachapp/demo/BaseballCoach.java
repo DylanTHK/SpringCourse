@@ -1,9 +1,10 @@
 package com.coachapp.demo;
 
-public class BaseballCoach {
+public class BaseballCoach implements Coach{
     
     // baseball workout
+    @Override
     public String getDailyWorkout() {
-        return "Do baseball workout";
+        return "Do Baseball workout";
     }
 }
